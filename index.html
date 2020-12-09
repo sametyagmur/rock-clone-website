@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Navigation area-->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a href="#" class="navbar-brand"><img src="images/logo.jpg" alt="" /></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item active">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="navbar-item"><a class="nav-link" href="#">ABOUT</a></li>
+          <li class="navbar-item"><a class="nav-link" href="#">ALBUMS</a></li>
+          <li class="navbar-item"><a class="nav-link" href="#">BLOG</a></li>
+          <li class="navbar-item"><a class="nav-link" href="#">CONTACT</a></li>
+          <li class="navbar-item" data-toggle="modal" data-id="#myModal">
+            <a
+              href="#"
+              class="nav-link"
+              data-target="#myModal"
+              data-toggle="modal"
+              >LOGIN
+            </a>
+
+            <div class="modal fade" id="myModal">
+              <button type="button" class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <div
+                class="container modal-xs"
+                style="margin-top: 40px; background-color: white"
+              >
+                <form>
+                  <div class="form-group row">
+                    <label for="email" class="col-md-3 col-form-label">
+                      E-mail
+                    </label>
+                    <div class="col-md-9">
+                      <input class="form-control" type="email" id="email" />
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="password" class="col-md-3 col-form-label">
+                      Password
+                    </label>
+                    <div class="col-md-9">
+                      <input
+                        class="form-control"
+                        type="password"
+                        id="password"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9 offset-md-3">
+                      <button class="btn btn-primary" type="submit">
+                        Login
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <div
+                  class="container"
+                  style="margin-top: 20px; text-align: center"
+                >
+                  <div class="row">
+                    <div class="col-sm">
+                      <p>You don't have an account?</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm">
+                      <a href="#"
+                        ><button type="button" class="btn">Sign up</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Main body-->
+    <div class="index-intro">
+      <div class="container-100">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-12">
+              <h1>Mp3</h1>
+              <div class="parag-1">
+                <p>The Perfect Music</p>
+              </div>
+
+              <h2>Welcome To The Music</h2>
+              <div class="parag-2">
+                <p>
+                  Lorem ipsum dolor sit amet consec tetur adipiscing elit elit
+                  at felis lacinia nec et est aptent taciti sociosqu ad litora
+                  torquent per conubia nostra
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <button class="btn btn-primary" type="button">Download Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About area-->
+    <div class="container icon-area">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <img src="icon/icon1.png" alt="" />
+          <p class="icon-parag-1">CUSTOM PLAYER</p>
+          <p class="icon-parag-2">
+            t is a long established fact that a reader will be distracted by the
+            readable
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="icon/icon2.png" alt="" />
+          <p class="icon-parag-1">EASY CUSTOMIZE</p>
+          <p class="icon-parag-2">
+            t is a long established fact that a reader will be distracted by the
+            readable
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="icon/icon3.png" alt="" />
+          <p class="icon-parag-1">MUSIC PLAYLIST</p>
+          <p class="icon-parag-2">
+            t is a long established fact that a reader will be distracted by the
+            readable
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="icon/icon4.png" alt="" />
+          <p class="icon-parag-1">CUSTOM GALLERY</p>
+          <p class="icon-parag-2">
+            t is a long established fact that a reader will be distracted by the
+            readable
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 p-0">
+              <div class="img-box">
+                  <img src="images/musicbg.jpg" alt="img">
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 p-0 pt-5  ">
+              <div class="text-box">
+                  <div class="box">
+                      <img src="images/5.png">
+                      <h3>MEET OUR MUSIC STARS</h3>
+                      <p>It is a long established fact that a reader will be distracted by the readable
+                          <br> content of a page when looking at its layout. The point of using Lorem
+                          <br> content of a page when looking at its layout. The point of using Lorem</p>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
