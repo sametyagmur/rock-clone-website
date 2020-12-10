@@ -191,6 +191,9 @@ justify-content: space-around;
       font-size: 16px;
    }
 
+   /*Card area*/
+
+
    .news h2{
       font-size: 36px;
       margin-top: 15px;
@@ -260,16 +263,51 @@ justify-content: space-around;
 
 .box h3{
    margin-left: 10px;
-   font-size: 45px;
+   font-size: 40px;
    padding-top:10px;
    line-height: 50px;
 }
 
+.text-box{
+  
+  height: 80%;
+   
+}
+
 .box p{
    margin-left: 10px;
-   font-size: 18px;
+   font-size: 15px;
    line-height: 1.2;
 }
+
+.news h2{
+   font-size: 40px;
+   margin-top: 20px;
+}
+
+.news p{
+   margin-bottom: 20px;
+   font-size: 16px;
+   
+}
+
+
+.card{
+   margin-right: 20px;
+
+}
+
+.card-title h4{
+   font-size: 22px;
+}
+.card-title h5{
+   font-size: 18px;
+}
+
+.card-text{
+   font-size: 14px;
+}
+
 }
 
 @media only screen and (min-width:1025px) and (max-width:1440px){
@@ -280,19 +318,27 @@ justify-content: space-around;
   margin-left: auto;
   padding-top: 10px;
   margin-right: auto;
-  width: 25%;
+  width: 20%;
 }
 
 .box h3{
-   margin-left: -80px;
-   font-size: 50px;
+   margin-left: 10px;
+   font-size: 40px;
    padding-top:10px;
-   line-height: 45px;
-   }
+   line-height: 50px;
+}
+
+.text-box{
+  
+  height: 90%;
+   
+}
 
 .box p{
-   margin-left: -80px;
-   font-size: 20px;
+   margin-left: 10px;
+   font-size: 15px;
+   line-height: 1.2;
 }
+
 
 }
